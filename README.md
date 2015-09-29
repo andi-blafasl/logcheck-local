@@ -9,5 +9,6 @@ I put my additions to logcheck rules under version control.
   
     cd /root/
     git clone https://github.com/andi-blafasl/logcheck-local.git
-    for i in $(ls /root/logcheck.local/*); do ln -s /root/logcheck.local/$i $i; done
-
+    chgrp logcheck logcheck-local
+    cd /etc/logcheck/ignore.d.server
+    for i in $(ls /root/logcheck-local/ | grep -v README); do ln -s /root/logcheck-local/$i $i; done
