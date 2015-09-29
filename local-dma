@@ -1,0 +1,10 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: new mail from user=[_[:alnum:]-]+ uid=[0-9]{1,4} envelope_from=<?[@._[:alnum:]-]+>?$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: mail to=<?[@._[:alnum:]-]+>? queued as [.[:alnum:]]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: trying delivery$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: trying remote delivery to [._[:alnum:]-]+ \[[.[:alnum:]:]+\] pref [0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: delivery successful$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: using smarthost \([._[:alnum:]:-]+\)$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: connect to [._[:alnum:]-]+ \[[.[:alnum:]:]+\] failed: (Network is unreachable|No route to host)$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: SSL initialization successful$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: using SMTP authentication for user [@._[:alnum:]-]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: smarthost authentication: AUTH [[:alnum:]-]+ not available: 504 [.[:alnum:] ]+ Unrecognized Authentication Type [.[:alnum:] -]+$

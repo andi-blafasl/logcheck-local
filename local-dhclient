@@ -1,0 +1,1 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dhclient: DHCPREQUEST of [.0-9]{7,15} on [[:alnum:]]+ to [.0-9]{7,15} port [0-9]{1,5} \(xid=0x[[:alnum:]]+\)$

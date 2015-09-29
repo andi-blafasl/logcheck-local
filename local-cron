@@ -1,0 +1,2 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ CRON\[[.[:alnum:]]+\]: message repeated [0-9]+ times: \[ \(root\) CMD \(command -v debian-sa1 > /dev/null \&\& debian-sa1 1 1\)\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ CRON\[[.[:alnum:]]+\]: message repeated [0-9]+ times: \[ \(root\) CMD \(\[ -x /usr/sbin/dma \] && /usr/sbin/dma -q1\)\]$

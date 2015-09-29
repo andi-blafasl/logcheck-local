@@ -1,0 +1,4 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: Need to get [[:digit:]. ]+([kMGTPEZY]?B)(/[.[:digit:] ]+([kMGTPEZY]?B))* of archives\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: After this operation, [.[:digit:] ]+[kMGTPEZY]?B (of additional disk space will be used|disk space will be freed)\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: Get:[[:digit:]]+ ((ht|f)tp|file)://[.[:alnum:]/_-]+ [./[:alnum:]-]+ [-[:alnum:]_+.]+ (|i386|amd64|all) [+.:~[:alnum:]-]+ \[[.[:digit:] ]+[kMGTPEZY]?B\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ cron-apt: Fetched [[:digit:]. ]+[kMGTPEZY]?B in ((([[:digit:]]+d )?[[:digit:]]+h ?)?[[:digit:]]+m(in)? ?)?[[:digit:]]+s \([[:digit:]. ]+[kMGTPEZY]?B/s\)$
