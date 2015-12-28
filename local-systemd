@@ -23,4 +23,4 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Start(ed|ing)|Stopping) (CUPS Printing Service|Disk Manager|Session [[:digit:]]+ of user [^ ]+)\.*$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Cannot determine UID from slice user-[[:digit:]]+\.slice$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-tmpfiles\[[[:digit:]]+\]: \[[._/[:alnum:]:-]+\] Duplicate line for path "[._/[:alnum:]:-]+", ignoring\.$
-
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Stopping LSB: start Samba NetBIOS nameserver (nmbd)\.\.\.$
