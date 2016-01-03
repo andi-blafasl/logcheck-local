@@ -1,0 +1,1 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rsnapshot\[[[:digit:]]+\]: /usr/bin/rsnapshot (yearly): completed successfully$
