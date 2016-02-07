@@ -1,1 +1,2 @@
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Accepted publickey for root from [._[:digit:]:-]+ port [0-9]{1,5} ssh2: RSA [[:alnum:]:]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Accepted publickey for root from [._[:digit:]:-]+ port [0-9]{1,5} ssh2: RSA (|SHA256)[\/[:alnum:]:]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Disconnected from [._[:digit:]:-]+$
