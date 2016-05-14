@@ -1,5 +1,6 @@
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ smbd\[[.[:alnum:]]+\]: \* Reloading /etc/samba/smb\.conf smbd$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ smbd\[[.[:alnum:]]+\]: pam_unix\(samba:session\): session closed for user [._[:alnum:]-]+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ smbd\[[.[:alnum:]]+\]: message repeated [0-9]+ times: \[ pam_unix\(samba:session\): session closed for user [._[:alnum:]-]+\]$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ nmbd\[[.[:alnum:]]+\]: \* (Starting|Stopping) NetBIOS name server nmbd$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ (s|n)mbd\[[.[:alnum:]]+\]: \.\.\.done\.$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ smbd(|\[[.[:alnum:]]+\]): \* Reloading /etc/samba/smb\.conf smbd$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ smbd(|\[[.[:alnum:]]+\]): pam_unix\(samba:session\): session opened for user [._[:alnum:]-]+ by \(uid=[0-9]+\)$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ smbd(|\[[.[:alnum:]]+\]): pam_unix\(samba:session\): session closed for user [._[:alnum:]-]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ smbd(|\[[.[:alnum:]]+\]): message repeated [0-9]+ times: \[ pam_unix\(samba:session\): session closed for user [._[:alnum:]-]+\]$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ nmbd(|\[[.[:alnum:]]+\]): \* (Starting|Stopping) NetBIOS name server nmbd$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ (s|n)mbd(|\[[.[:alnum:]]+\]): \.\.\.done\.$
