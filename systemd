@@ -24,3 +24,7 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (|session-[0-9]+\.scope: )Cannot determine UID from slice user-[[:digit:]]+\.slice$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-tmpfiles\[[[:digit:]]+\]: \[[._/[:alnum:]:-]+\] Duplicate line for path "[._/[:alnum:]:-]+", ignoring\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Starting|Stopping|Started) LSB: start Samba NetBIOS nameserver \(nmbd\)\.+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Starting Daily apt activities\.+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Started Daily apt activities\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: apt-daily\.timer: Adding [0-9]h [0-9]{1,2}min [0-9]{1,2}\.[0-9]{6}s random time\.$
+
