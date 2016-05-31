@@ -1,3 +1,3 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Accepted publickey for root from [._a-f[:digit:]:-]+ port [0-9]{1,5} ssh2: RSA (|SHA256)[\/[:alnum:]:]+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: (D|Received d)isconnected from [._a-f[:digit:]:-]+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: (D|Received d)isconnected from [._a-f[:digit:]:-]+ 0:$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: (Received disconnect|Disconnected) from [._a-f[:digit:]:-]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: (Received disconnect|Disconnected) from [._a-f[:digit:]:-]+ 0:$
