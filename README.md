@@ -1,6 +1,7 @@
 # logcheck-local
 
-I put my additions to logcheck rules under version control.
+I put my additions to logcheck rules under version control. Most of them are
+designed for ubuntu (verion 14.04 and up) but also some rules for debian 7 are included.
 
 ## how to use
 
