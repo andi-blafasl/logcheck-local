@@ -1,0 +1,9 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rssh\[[[:digit:]]+\]: $
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rssh\[[[:digit:]]+\]: chrooting all users to [ ._/[:alnum:]-]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rssh\[[[:digit:]]+\]: chroot cmd line: /usr/lib/rssh/rssh_chroot_helper 2 "/usr/lib/openssh/sftp-server"$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rssh\[[[:digit:]]+\]: chroot cmd line: /usr/lib/rssh/rssh_chroot_helper 5 "rsync [ ._/[:alnum:]-]+"$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rssh_chroot_helper\[[[:digit:]]+\]: $
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rssh_chroot_helper\[[[:digit:]]+\]: new session for [._[:alnum:]-]+, UID=[[:digit:]]{4}$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rssh_chroot_helper\[[[:digit:]]+\]: user's home dir is /srv/bladrive/users/[._[:alnum:]-]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rssh_chroot_helper\[[[:digit:]]+\]: chrooted to [ ._/[:alnum:]-]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ rssh_chroot_helper\[[[:digit:]]+\]: changing working directory to /users/[._[:alnum:]-]+ \(inside jail\)$
