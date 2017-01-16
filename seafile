@@ -1,0 +1,1 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sudo: [ .[:alnum:]]+: TTY=unknown ; PWD=/var/lib/logrotate ; USER=seafile ; COMMAND=/srv/seafile/seafile-server-latest/sea(file|hub)\.sh (start|stop)(|-fastcgi)(| 8000)$
