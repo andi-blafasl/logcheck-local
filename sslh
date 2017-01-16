@@ -1,0 +1,1 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: connection from [.[:alnum:]-]+:[0-9]{1,5} to [.[:alnum:]-]+:[0-9]{1,5} forwarded from localhost:[0-9]{1,5} to localhost:[0-9]{1,5}$
