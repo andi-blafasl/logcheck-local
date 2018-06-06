@@ -3,5 +3,6 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: (Received disconnect|Disconnected) from [._a-f[:digit:]:-]+ 0:$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Received disconnect from [._a-f[:digit:]:-]+ port [0-9]{1,5}:[0-9]{1,2}: disconnected by user$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Disconnected from [._a-f[:digit:]:-]+ port [0-9]{1,5}$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Disconnected from user [._[:alnum:]-]+ port [0-9]{1,5}$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Bad protocol version identification '[ .\/\\[:alnum:]-]+' from 127\.0\.0\.1 port [0-9]{1,5}$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Protocol major versions differ for 127\.0\.0\.1: .*$
