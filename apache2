@@ -1,2 +1,3 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ apache2\[[.[:alnum:]]+\]: +\* Reloading (Apache httpd |)web server apache2$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ apache2\[[.[:alnum:]]+\]: +\*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[.[:alnum:]]+\]: Reload(ing|ed) The Apache HTTP Server\.$
