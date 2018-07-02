@@ -1,1 +1,1 @@
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ fstrim\[[.[:alnum:]]+\]: [\/[:alnum:]]+: [.0-9]+ MiB \([0-9]+ bytes\) trimmed$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ fstrim\[[.[:alnum:]]+\]: [\/[:alnum:]]+: [.0-9]+ (GiB|MiB|KiB|B) \([0-9]+ bytes\) trimmed$
