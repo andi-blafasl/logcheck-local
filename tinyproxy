@@ -1,0 +1,2 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ tinyproxy\[[0-9]+\]: (Stopping|Starting) tinyproxy: tinyproxy\.$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ tinyproxy\[[0-9]+\]: Reloading tinyproxy configuration files\.$
