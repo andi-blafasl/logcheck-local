@@ -1,0 +1,1 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ openvpn-server\[[.[:alnum:]]+\]: 127.0.0.1:[0-9]{1,5} TLS Error: unknown opcode received from \[AF_INET\]127.0.0.1:[0-9]{1,5} op=0$
