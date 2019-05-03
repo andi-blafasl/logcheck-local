@@ -1,2 +1,5 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: connection from [.[:alnum:]-]+:[0-9]{1,5} to [.[:alnum:]-]+:[0-9]{1,5} forwarded from localhost:[[:alnum:]]{1,5} to localhost:[[:alnum:]]{1,5}$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: sprintaddr:getnameinfo: Temporary failure in name resolution
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: sprintaddr:getnameinfo: Temporary failure in name resolution$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: getpeername:107:Transport endpoint is not connected$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: connect: Transport endpoint is not connected$
+
