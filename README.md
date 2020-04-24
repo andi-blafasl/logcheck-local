@@ -13,5 +13,5 @@ cd /usr/local/etc/
 git clone https://github.com/andi-blafasl/logcheck-local.git
 chgrp logcheck logcheck-local
 cd /etc/logcheck/ignore.d.server
-for i in $(ls /usr/local/etc/logcheck-local/ | grep -v README); do ln -s /usr/local/etc/logcheck-local/$i local-$i; done
+for i in $(ls /usr/local/etc/logcheck-local/ | grep -v \.md); do ln -s /usr/local/etc/logcheck-local/$i local-$i; done
 ```
