@@ -1,0 +1,1 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd:  \[origin software="rsyslogd" swVersion="[.[:alnum:]]+" x-pid="[[:alnum:]]+" x-info="http:\/\/www\.rsyslog\.com"\] rsyslogd was HUPed$
