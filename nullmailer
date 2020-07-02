@@ -4,6 +4,6 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ nullmailer-send\[[.[:alnum:]]+\]: Starting delivery: host: [._[:alnum:]-]+ protocol: smtp file: [.0-9]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ nullmailer-send\[[.[:alnum:]]+\]: From: <[._[:alnum:]+-]+@[[:alnum:]-]+\.[.[:alnum:]-]+> to: <[._[:alnum:]+-]+@[[:alnum:]-]+\.[.[:alnum:]-]+>$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ nullmailer-send\[[.[:alnum:]]+\]: Message-Id: <[._[:alnum:]+-]+@[[:alnum:]-]+\.[.[:alnum:]-]+>$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ nullmailer-send\[[.[:alnum:]]+\]: smtp: Succeeded: 250 2\.6\.0 <[._[:alnum:]+-]+@[.[:alnum:]-]+> (\[InternalId=[0-9]+\] |)Queued mail for delivery$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ nullmailer-send\[[.[:alnum:]]+\]: smtp: Succeeded: 250 2\.6\.0 +<[._[:alnum:]+-]+@[.[:alnum:]-]+> (\[InternalId=[0-9]+\] |)Queued mail for delivery$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ nullmailer-send\[[.[:alnum:]]+\]: Sent file\.$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ nullmailer-send\[[.[:alnum:]]+\]: Delivery complete, [0-9]+ message\(s\) remain\.$
