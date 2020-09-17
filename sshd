@@ -2,9 +2,10 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: (Received disconnect|Disconnected) from [._a-f[:digit:]:-]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: (Received disconnect|Disconnected) from [._a-f[:digit:]:-]+ 0:$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Received disconnect from [._a-f[:digit:]:-]+ port [0-9]{1,5}:[0-9]{1,2}: disconnected by user$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Disconnected from [._a-f[:digit:]:-]+ port [0-9]{1,5}$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Disconnected from user [._[:alnum:]-]+ port [0-9]{1,5}$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Bad protocol version identification '[ .\/\\[:alnum:]-]*' from [._a-f[:digit:]:-]+ port [0-9]{1,5}$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Protocol major versions differ for 127\.0\.0\.1: .*$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: fatal: Unable to negotiate with [._a-f[:digit:]:-]+ port [0-9]{1,5}: no matching cipher found\. Their offer: .* \[preauth\]$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Connection closed by [._a-f[:digit:]:-]+ port [0-9]{1,5} \[preauth\]$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Disconnected from (user |(authenticating|invalid) user [[:alnum:]]+ |)[._a-f[:digit:]:-]+ port [0-9]{1,5} \[preauth\]$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Invalid user [[:alnum:]]+ from [._a-f[:digit:]:-]+ port [0-9]{1,5}$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Received disconnect from [._a-f[:digit:]:-]+ port [0-9]{1,5}\:11\: Bye Bye \[preauth\]$
