@@ -10,3 +10,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Invalid user [.@[:alnum:]-]+ from [._a-f[:digit:]:-]+ port [0-9]{1,5}$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Received disconnect from [._a-f[:digit:]:-]+ port [0-9]{1,5}\:11\: (Bye Bye|Client disconnecting normally|Normal Shutdown, Thank you for playing) \[preauth\]$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Did not receive identification string from [._a-f[:digit:]:-]+ port [0-9]{1,5}$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\(pam_google_authenticator\)\[[.[:alnum:]]+\]: Accepted google_authenticator for [._@[:alnum:]-]+$
