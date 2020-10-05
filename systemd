@@ -7,7 +7,7 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-logind\[[[:digit:]]+\]: Removed session [[:digit:]]+\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Stopping|Stopped target|Reached target) (Shutdown|Timers|Default|Basic System|Paths|Sockets)\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Starting (Shutdown|Exit the Session\.\.|Timers|Default|Basic System|Paths|Sockets)\.$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Received SIGRTMIN\+24 from PID [[:digit:]]+ \(kill\)\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Received SIGRTMIN\+24 from PID [[:digit:]]+ \((kill|n\/a)\)\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Startup finished in [[:digit:]]+ms\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Start|Stopp)(ing|ed) User Manager for UID [0-9]+\.+$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Starting|Created|Stopping|Removed)( slice)? (user|system)-[\\[:alnum:]]+\.slice\.$
