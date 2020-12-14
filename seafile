@@ -5,3 +5,6 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ seahub\.sh\[[0-9]+\]: Starting seahub at port [0-9]{1,5} \.\.\.$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ seahub\.sh\[[0-9]+\]: (LANG|LC_ALL) is not set in ENV, set to en_US.UTF-8$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ seafile\.sh\[[0-9]+\]: \[[ :0-9\/]{17}\] \.\.\/common\/session\.c\([0-9]+\): using config file [[:alnum:]\/]+ccnet\.conf
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[1\]: seahub\.service: Main process exited, code=killed, status=9\/KILL$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[1\]: seahub\.service: Failed with result 'signal'\.$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ seafile-control\[[0-9]+\]: seafile-controller\.c\([0-9]+\): No seafevents\.
