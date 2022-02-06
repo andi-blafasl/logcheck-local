@@ -1,1 +1,3 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ iodined: started, listening on port [[:alnum:]]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ iodined\[[.[:alnum:]]+\]: iodined: no question section in name query$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ iodined\[[.[:alnum:]]+\]: iodined: header->qr does not match the requested qr$
