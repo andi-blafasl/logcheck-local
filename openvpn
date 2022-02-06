@@ -5,4 +5,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ o(pen|)vpn(-server|)\[[.[:alnum:]]+\]: [._a-f[:digit:]:-]+:[0-9]{1,5} TLS ERROR: initial packet local\/remote key_method mismatch, local key_method=2, op=P_CONTROL_HARD_RESET_CLIENT_V1$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ o(pen|)vpn(-server|)\[[.[:alnum:]]+\]: [._a-f[:digit:]:-]+:[0-9]{1,5} TLS Error: TLS object -> incoming plaintext read error$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ o(pen|)vpn(-server|)\[[.[:alnum:]]+\]: [._a-f[:digit:]:-]+:[0-9]{1,5} TLS_ERROR: BIO read tls_read_plaintext error$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ o(pen|)vpn(-server|)\[[.[:alnum:]]+\]: [._a-f[:digit:]:-]+:[0-9]{1,5} OpenSSL: error:[a-f0-9]*:SSL routines:tls_process_client_certificate:peer did not return a certificate$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ o(pen|)vpn(-server|)\[[.[:alnum:]]+\]: [._a-f[:digit:]:-]+:[0-9]{1,5} OpenSSL: error:[a-fA-F0-9]*:SSL routines:tls_process_client_certificate:peer did not return a certificate$
