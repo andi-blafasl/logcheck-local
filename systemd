@@ -27,9 +27,13 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Starting Daily apt(| download| upgrade and clean) activities\.+$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Started Daily apt(| download| upgrade and clean) activities\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: apt-daily\.timer: Adding (|[0-9]{1,2}h )(|[0-9]{1,2}min )(|[0-9]{1,3}\.[0-9]{1,6}s )(|[0-9]{1,3}\.[0-9]{1,6}ms )random time\.$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Created slice User Slice of [a-zA-Z0-9-]+\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Created slice User Slice of (UID |)[a-zA-Z0-9-]+\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Starting resolvconf-pull-resolved.service\.\.\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Started resolvconf-pull-resolved.service\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Listening on|Closed) REST API socket for snapd user session agent\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Listening on|Closed) GnuPG cryptographic agent and passphrase cache \(access for web browsers\)\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Removed slice User Slice of [.@[:alnum:]-]+\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (phpsessionclean|apt-daily(-upgrade|)|packagekit|ua-timer|motd-news)\.service: Succeeded\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Finished (Clean php session files|Daily apt download activities|Ubuntu Advantage Timer for running repeated jobs|Message of the Day|Daily apt upgrade and clean activities|User Runtime Directory \/run\/user\/[0-9]+)\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Starting D-Bus User Message Bus Socket\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on (debconf communication|D-Bus User Message Bus) [Ss]ocket\.$

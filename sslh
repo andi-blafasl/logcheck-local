@@ -1,4 +1,5 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: (ssl|ssh|http|openvpn|)(:|)connection from [.[:alnum:]-]+:[[:alnum:]]{1,7} to [.[:alnum:]-]+:[[:alnum:]]{1,7} forwarded from localhost:[[:alnum:]]{1,7} to localhost:[[:alnum:]]{1,7}$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: sprintaddr:getnameinfo: Temporary failure in name resolution$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: getpeername:107:Transport endpoint is not connected$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: connect: Transport endpoint is not connected$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: (common\.c:271:|)getpeername:107:Transport endpoint is not connected$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: (sslh-fork\.c:110:|)connect: Transport endpoint is not connected$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: tls:connection from [._[:alnum:]-]+:[0-9]{1,5} to [._[:alnum:]-]+:[0-9]{1,5} forwarded from localhost:[0-9]{1,5} to localhost:https$

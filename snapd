@@ -1,0 +1,3 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ snapd\[[.[:alnum:]]+\]: storehelpers\.go:[0-9]+: cannot refresh: snap has no updates available: .*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ snapd\[[.[:alnum:]]+\]: autorefresh\.go:[0-9]+: auto-refresh: all snaps are up-to-date$
+

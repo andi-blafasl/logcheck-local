@@ -8,5 +8,9 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: SSL initialization successful$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: using SMTP authentication for user [@._[:alnum:]-]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: smarthost authentication: AUTH [[:alnum:]-]+ not available: 504 [.[:alnum:] ]+ Unrecognized Authentication Type [.[:alnum:] -]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: Server greeting successfully completed$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: *Server (does not |)supports? STARTTLS$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: <[._a-zA-Z0-9+-]+@[a-zA-Z0-9-]+.[.a-zA-Z0-9-]+> trying delivery$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma\[[.[:alnum:]]+\]: <[._a-zA-Z0-9+-]+@[a-zA-Z0-9-]+.[.a-zA-Z0-9-]+> delivery successful$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma-mbox-create: creating mbox for \'[._[:alnum:]-]+\'$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dma-mbox-create: successfully created mbox for \'[._[:alnum:]-]+\'$
