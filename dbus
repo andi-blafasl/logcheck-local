@@ -1,4 +1,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dbus\[[.[:alnum:]]+\]: \[system\] Activating service name='[.[:alnum:]]+' \(using servicehelper\)$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dbus\[[.[:alnum:]]+\]: \[system\] Successfully activated service '[.[:alnum:]]+'$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dbus-daemon\[[[:digit:]]+\]: \[system\] Successfully activated service 'org\.freedesktop\.PackageKit'$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dbus-daemon\[[[:digit:]]+\]: \[system\] Activating via systemd: service name=.*PackageKit.*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dbus-daemon\[[[:digit:]]+\]: \[system\] Successfully activated service 'org\.freedesktop\.(PackageKit|timedate1)'$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dbus-daemon\[[[:digit:]]+\]: \[system\] Activating via systemd: service name=.*(PackageKit|timedate1).*$
