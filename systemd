@@ -45,4 +45,5 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Started The PHP [4-9]\.[0-9]+ FastCGI Process Manager\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Start(ing|ed) Time & Date Service\.+
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-timesyncd\[[[:digit:]]+\]: Initial synchronization to time server .*:[0-9]{1,5} \([._[:alnum:]-]+\)\.$
-
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-udevd\[[[:digit:]]+\]: Network interface NamePolicy= disabled on kernel command line, ignoring\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Mount(ing|ed) Mount unit for core20, revision 1361\.+$
