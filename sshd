@@ -12,7 +12,7 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Received disconnect from [._a-f[:digit:]:-]+ port [0-9]{1,5}\:11\: (Bye Bye|Client disconnecting normally|Normal Shutdown, Thank you for playing) \[preauth\]$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Did not receive identification string from [._a-f[:digit:]:-]+ port [0-9]{1,5}$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\(pam_google_authenticator\)\[[.[:alnum:]]+\]: Accepted google_authenticator for [._@[:alnum:]-]+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: error: kex_exchange_identification: (Connection closed by remote host|banner line contains invalid characters)$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: error: kex_exchange_identification: (Connection closed by remote host|banner line contains invalid characters|read: Connection reset by peer)$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: error: send_error: write: Broken pipe$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: error: Protocol major versions differ: 2 vs\. 1$
 

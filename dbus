@@ -2,3 +2,5 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dbus\[[.[:alnum:]]+\]: \[system\] Successfully activated service '[.[:alnum:]]+'$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dbus-daemon\[[[:digit:]]+\]: \[system\] Successfully activated service 'org\.freedesktop\.(PackageKit|timedate1)'$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dbus-daemon\[[[:digit:]]+\]: \[system\] Activating via systemd: service name=.*(PackageKit|timedate1).*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dbus-daemon\[[[:digit:]]+\]: (message repeated [0-9]+ times: \[ |)\[system\] Reloaded configuration(\]|)$
+

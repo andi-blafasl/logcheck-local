@@ -1,3 +1,13 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ snapd\[[.[:alnum:]]+\]: storehelpers\.go:[0-9]+: cannot refresh: snap has no updates available: .*$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ snapd\[[.[:alnum:]]+\]: autorefresh\.go:[0-9]+: auto-refresh: all snaps are up-to-date$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ snapd\[[[:digit:]]+\]: storehelpers\.go:[0-9]+: cannot refresh snap "[[:alnum:]]+": snap has no updates available$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ snapd\[[[:digit:]]+\]: main\.go:[0-9]+: Exiting on terminated signal\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ snapd\[[[:digit:]]+\]: patch\.go:[0-9]+: Patching system state level 6 to sublevel [1-9]\.+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ snapd\[[[:digit:]]+\]: daemon\.go:[0-9]+: started snapd\/[._[:alnum:]-+ ();\/]+\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ snapd\[[[:digit:]]+\]: daemon\.go:[0-9]+: adjusting startup timeout by [0-9]+s \(pessimistic estimate of [0-9]+s plus [0-9]+s per snap\)$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ snapd\[[[:digit:]]+\]: AppArmor status: apparmor is enabled and all features are available$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: \[[.[:digit:]]+\] audit: type=1400 audit\([.0-9]+:[0-9]{2}\): apparmor="STATUS" operation="profile_replace" (info="same as current profile, skipping" |)profile="unconfined" name="(\/usr\/lib\/snapd\/snap-confine(\/[^"]*|)|\/snap\/snapd\/[0-9]+.*snap-confine[^"]*|snap-update-ns\.lxd|snap\.lxd\.[^"]+)" pid=[0-9]+ comm="apparmor_parser"$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: snapd\.(apparmor|seeded|)\.{0,1}(service|socket): Succeeded\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Closed|Listening on) Socket activation for snappy daemon\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Finished Wait until snapd is fully seeded\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Finished Load AppArmor profiles managed internally by snapd\.$
