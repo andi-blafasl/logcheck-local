@@ -49,4 +49,4 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Mount(ing|ed) Mount unit for core20, revision 1361\.+$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Condition check resulted in (Auto import assertions from block devices|Automatically repair incorrect owner\/permissions on core devices|Wait for the Ubuntu Core chooser trigger|Timer to automatically fetch and run repair assertions|Ubuntu core \(all-snaps\) system shutdown helper setup service) being skipped\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: tmp-sanity.*\.mount: Succeeded\.$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[.[:alnum:]]+\]: (apt-daily|phpsessionclean)\.service: Deactivated successfully\.$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[.[:alnum:]]+\]: (apt-daily|apt-daily-upgrade|phpsessionclean|ua-timer)\.service: Deactivated successfully\.$
