@@ -32,7 +32,6 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (Listening on|Closed) GnuPG cryptographic agent and passphrase cache \(access for web browsers\)\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Removed slice User Slice of (UID |)[.@[:alnum:]-]+\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (phpsessionclean|apt-daily(-upgrade|)|packagekit|ua-timer|motd-news|systemd-tmpfiles-clean|man-db|logrotate|systemd-update-utmp-runlevel|systemd-fsckd|systemd-timedated|e2scrub_all|fstrim)\.service: Succeeded\.$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Finished (Clean php session files|Daily apt download activities|Ubuntu Advantage Timer for running repeated jobs|Message of the Day|Daily apt upgrade and clean activities|User Runtime Directory \/run\/user\/[0-9]+|Cleanup of Temporary Directories|Daily man-db regeneration|Rotate log files|Exit the Session|Update UTMP about System Runlevel Changes|Online ext4 Metadata Check for All Filesystems|Discard unused blocks on filesystems from \/etc\/fstab)\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Starting D-Bus User Message Bus Socket\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on (debconf communication|D-Bus User Message Bus) [Ss]ocket\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (run-user-[0-9]+|opt-g(drive|photo))\.mount: Succeeded\.$
@@ -49,4 +48,6 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Mount(ing|ed) Mount unit for core20, revision 1361\.+$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Condition check resulted in (Auto import assertions from block devices|Automatically repair incorrect owner\/permissions on core devices|Wait for the Ubuntu Core chooser trigger|Timer to automatically fetch and run repair assertions|Ubuntu core \(all-snaps\) system shutdown helper setup service) being skipped\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: tmp-sanity.*\.mount: Succeeded\.$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[.[:alnum:]]+\]: (apt-daily|apt-daily-upgrade|phpsessionclean|ua-timer)\.service: Deactivated successfully\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[.[:alnum:]]+\]: .*\.service: Deactivated successfully\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[.[:alnum:]]+\]: .*\.service: Consumed [.0-9]+s CPU time\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[.[:alnum:]]+\]: Finished (Download|Update).*\.$

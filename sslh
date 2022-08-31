@@ -3,4 +3,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: (common\.c:271:|)getpeername:107:Transport endpoint is not connected$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: (sslh-fork\.c:110:|)connect: Transport endpoint is not connected$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: tls:connection from [._[:alnum:]-]+:[0-9]{1,5} to [._[:alnum:]-]+:[0-9]{1,5} forwarded from localhost:[0-9]{1,5} to localhost:https$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: ssh:connection from [._[:alnum:]-]+:[0-9]{1,5} to [._[:alnum:]-]+:[0-9]{1,5} forwarded from localhost:[[:alnum:]]+ to localhost:822$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sslh\[[.[:alnum:]]+\]: ssh:connection from [._[:alnum:]-]+:([0-9]{1,5}|[a-z]+) to [._[:alnum:]-]+:[0-9]{1,5} forwarded from localhost:[[:alnum:]]+ to localhost:822$
