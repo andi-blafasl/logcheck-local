@@ -16,4 +16,5 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: error: send_error: write: Broken pipe$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: error: Protocol major versions differ: 2 vs\. 1$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Connection from [._a-f[:digit:]:-]+ port [0-9]{1,5} on [._a-f[:digit:]:-]+ port [0-9]{1,5} rdomain "(|[._[:alnum:]-]+)"$
-
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: banner exchange: Connection from [._a-f[:digit:]:-]+ port [0-9]{1,5}: invalid format$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: userauth_pubkey: key type ssh-rsa not in PubkeyAcceptedAlgorithms \[preauth\]$
