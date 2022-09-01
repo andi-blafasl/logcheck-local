@@ -48,6 +48,10 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Mount(ing|ed) Mount unit for core20, revision 1361\.+$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Condition check resulted in (Auto import assertions from block devices|Automatically repair incorrect owner\/permissions on core devices|Wait for the Ubuntu Core chooser trigger|Timer to automatically fetch and run repair assertions|Ubuntu core \(all-snaps\) system shutdown helper setup service) being skipped\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: tmp-sanity.*\.mount: Succeeded\.$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[.[:alnum:]]+\]: .*\.service: Deactivated successfully\.$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[.[:alnum:]]+\]: .*\.service: Consumed [.0-9]+s CPU time\.$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[.[:alnum:]]+\]: Finished (Download|Update).*\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: .*\.service: Deactivated successfully\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: .*\.service: Consumed ([0-9]+min |)[.0-9]+s CPU time\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Finished (Download|Update|Clean php|Daily apt download activities|Ubuntu Advantage Timer|Message of the Day|Daily apt upgrade and clean activities|User Runtime Directory \/run\/user\/[0-9]+|Cleanup of Temporary Directories|Daily man-db regeneration|Rotate log files|Exit the Session|Update UTMP about System Runlevel Changes|Online ext4 Metadata Check for All Filesystems|Discard unused blocks on filesystems from \/etc\/fstab).*\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Starting D-Bus User Message Bus Socket\.+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Created slice User Application Slice\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Queued start job for default target Main User Target\.$
+
