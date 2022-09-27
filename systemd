@@ -34,7 +34,7 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (phpsessionclean|apt-daily(-upgrade|)|packagekit|ua-timer|motd-news|systemd-tmpfiles-clean|man-db|logrotate|systemd-update-utmp-runlevel|systemd-fsckd|systemd-timedated|e2scrub_all|fstrim)\.service: Succeeded\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Starting D-Bus User Message Bus Socket\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on (debconf communication|D-Bus User Message Bus) [Ss]ocket\.$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (run-user-[0-9]+|opt-g(drive|photo))\.mount: Succeeded\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (run-user-[0-9]+|tmp-snap\.[_[:alnum:]]+|opt-g(drive|photo))\.mount: (Succeeded|Deactivated successfully)\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Starting Daily man-db regeneration\.\.\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-logind\[[[:digit:]]+\]: Session [0-9]+ logged out\. Waiting for processes to exit\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: session-[0-9]+\.scope: Succeeded\.$
@@ -49,9 +49,12 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Condition check resulted in (Auto import assertions from block devices|Automatically repair incorrect owner\/permissions on core devices|Wait for the Ubuntu Core chooser trigger|Timer to automatically fetch and run repair assertions|Ubuntu core \(all-snaps\) system shutdown helper setup service) being skipped\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: tmp-sanity.*\.mount: Succeeded\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: .*\.service: Deactivated successfully\.$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: .*\.service: Consumed ([0-9]+min |)[.0-9]+s CPU time\.$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Finished (Download|Update|Clean php|Daily apt download activities|Ubuntu Advantage Timer|Message of the Day|Daily apt upgrade and clean activities|User Runtime Directory \/run\/user\/[0-9]+|Cleanup of Temporary Directories|Daily man-db regeneration|Rotate log files|Exit the Session|Update UTMP about System Runlevel Changes|Online ext4 Metadata Check for All Filesystems|Discard unused blocks on filesystems from \/etc\/fstab).*\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: .*\.(service|slice|scope): Consumed ([0-9]+min |)[.0-9]+s CPU time\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Finished (Download|Update|Clean php|Daily apt download activities|Ubuntu Advantage Timer|Message of the Day|Daily apt upgrade and clean activities|User Runtime Directory \/run\/user\/[0-9]+|Cleanup of Temporary Directories|Daily man-db regeneration|Rotate log files|Exit the Session|Update UTMP about System Runlevel Changes|Online ext4 Metadata Check for All Filesystems|Discard unused blocks on filesystems from \/etc\/fstab|Daily dpkg database backup service|Check to see whether there is a new version of Ubuntu available).*\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Starting D-Bus User Message Bus Socket\.+$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Created slice User Application Slice\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Queued start job for default target Main User Target\.$
-
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: session-[0-9]+\.scope: Deactivated successfully\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Removed slice User Application Slice\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Started Dispatcher daemon for systemd-networkd\.
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: rsyslog\.service: Sent signal SIGHUP to main process [0-9]+ \(rsyslogd\) on client request\.$

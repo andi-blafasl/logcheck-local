@@ -1,2 +1,3 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ goatcounter\[[[:digit:]]+\]: (┏|┗|┓|┛|┃|━)+( +(.*Thank you.*|.*self-host.*|.*contribut.*|) +|)(┏|┗|┓|┛|┃|━)+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ goatcounter\[[[:digit:]]+\]: \w{3} [ :0-9]{11} INFO: ready; serving [0-9]+ sites on "[.a-z0-9:]+"; dev=false; sites. [, ._[:alnum:]-]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ goatcounter\[[[:digit:]]+\]: [[:alpha:]]{3} [ :[:digit:]]+ ERROR: cron task PersistAndStat is taking longer than 10s$
