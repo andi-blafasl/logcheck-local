@@ -22,4 +22,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Accepted key ED25519 SHA256:[[:alnum:]]+ found at \/etc\/ssh\/duplicati_keys\/[[:alnum:]]+:[1-9]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: User child is on pid [0-9]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Changed root directory to ".+"$
-
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sshd\[[.[:alnum:]]+\]: Postponed publickey for [.[:alnum:]]+ from [._a-f[:digit:]:-]+ port [[:digit:]]{1,5} ssh2 \[preauth\]$
