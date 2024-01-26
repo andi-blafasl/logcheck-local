@@ -58,3 +58,4 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Removed slice User Application Slice\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Started Dispatcher daemon for systemd-networkd\.
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: rsyslog\.service: Sent signal SIGHUP to main process [0-9]+ \(rsyslogd\) on client request\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (message repeated [0-9]+ times: \[ |)Started Checkmk agent \(PID [0-9]+\/UID [0-9]+\)\.(\]|)$
