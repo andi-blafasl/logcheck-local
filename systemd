@@ -34,7 +34,7 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (phpsessionclean|apt-daily(-upgrade|)|packagekit|ua-timer|motd-news|systemd-tmpfiles-clean|man-db|logrotate|systemd-update-utmp-runlevel|systemd-fsckd|systemd-timedated|e2scrub_all|fstrim)\.service: Succeeded\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Starting D-Bus User Message Bus Socket\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on (debconf communication|D-Bus User Message Bus) [Ss]ocket\.$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (run-user-[0-9]+|tmp-snap\.[_[:alnum:]]+|opt-g(drive|photo))\.mount: (Succeeded|Deactivated successfully)\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: (run-user-[0-9]+|tmp-snap\.[_[:alnum:]]+|.*-g(drive|photo))\.mount: (Succeeded|Deactivated successfully)\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Starting Daily man-db regeneration\.\.\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-logind\[[[:digit:]]+\]: Session [0-9]+ logged out\. Waiting for processes to exit\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: session-[0-9]+\.scope: Succeeded\.$
